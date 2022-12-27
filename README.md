@@ -62,10 +62,30 @@ Program:
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
 Developed by: MIDHUNA AZHAHU RAJA P
 RegisterNumber:  22008311
-*/
+
+CODE:
+
+module expone(a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and(y1,a,b);
+or(y2,a,b);
+not(y3,a);
+xor(y4,a,b);
+nand(y5,a,b);
+nor(y6,a,b);
+xnor(y7,a,b);
+endmodule
+
+
 Logic symbol & Truthtable
-RTL realization
+![MIDZ_DI2](https://user-images.githubusercontent.com/118054670/209641692-1b82452f-1b4c-4a26-bdde-39761e30377b.png)
+
+
+RTL realization![MIDZ_DI](https://user-images.githubusercontent.com/118054670/209638741-774d29f2-c603-46a4-bbf3-4f1f86c2fb1f.png)
+
 Output:
+
 RTL
 
 Result:
