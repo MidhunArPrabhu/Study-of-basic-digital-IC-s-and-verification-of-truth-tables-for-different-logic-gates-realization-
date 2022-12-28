@@ -3,7 +3,7 @@
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
 # Equipments Required:
-Hardware – PCs, Cyclone II , USB flasher
+Hardware – PCs, Cyclone II , USB flasher  
 Software – Quartus prime
 # THEORY
 # INTRODUCTION
@@ -57,9 +57,8 @@ Switch ON the main switch
 Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
-# PROGRAM:
-/*
-Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
+# PROGRAM:  
+Program to verify the truth table in quartus for the basic logic gates using Verilog programming.  
 Developed by: MIDHUNA AZHAHU RAJA P  
 RegisterNumber:  22008311  
 
@@ -77,16 +76,13 @@ nor(y6,a,b);
 xnor(y7,a,b);  
 endmodule
 
-
-Logic symbol & Truthtable
+# OUTPUT: 
+# LOGIC SYMBOL AND TRUTH TABLE:  
 ![MIDZ_DI2](https://user-images.githubusercontent.com/118054670/209641692-1b82452f-1b4c-4a26-bdde-39761e30377b.png)
 
 
-RTL realization![MIDZ_DI](https://user-images.githubusercontent.com/118054670/209638741-774d29f2-c603-46a4-bbf3-4f1f86c2fb1f.png)
+# RTL REALIZATION:  
+![MIDZ_DI](https://user-images.githubusercontent.com/118054670/209638741-774d29f2-c603-46a4-bbf3-4f1f86c2fb1f.png)
 
-Output:
-
-RTL
-
-Result:
+# RESULT:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
